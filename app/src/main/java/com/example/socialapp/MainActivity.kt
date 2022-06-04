@@ -7,7 +7,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.socialapp.daos.PostDao
 import com.example.socialapp.models.Post
 import com.firebase.ui.firestore.FirestoreRecyclerOptions
-import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.Query
 import kotlinx.android.synthetic.main.activity_main.*
 
