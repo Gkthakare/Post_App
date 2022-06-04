@@ -2,7 +2,6 @@ package com.example.socialapp
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.socialapp.daos.PostDao
@@ -13,7 +12,6 @@ import com.google.firebase.firestore.Query
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), IPostAdapter {
-    private lateinit var firebaseAuth: FirebaseAuth
     private lateinit var postDao: PostDao
     private lateinit var adapter: PostAdapter
 
